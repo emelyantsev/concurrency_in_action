@@ -25,6 +25,19 @@
               }
             ],
             "preLaunchTask": "Linux C/C++: g++ build all *.cpp in folder"
+          },
+
+          {
+            "name": "Windows C/C++: g++ build and debug all cpp in folder",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}/build/${fileDirnameBasename}.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "Windows C/C++: g++ build all *.cpp in folder"
           }
     ]
 }
