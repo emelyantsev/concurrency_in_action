@@ -1,1 +1,3 @@
-"# concurrency_in_action" 
+### C++ concurrency in action
+
+1. [Hello, world of concurrency in C++!]()
