@@ -4,6 +4,7 @@
 !*.*
 
 *.o
+*.exe
 
 # VS Code files for those working on multiple tools
 .vscode/*
@@ -13,5 +14,3 @@
 !.vscode/extensions.json
 !.vscode/c_cpp_properties.json
 *.code-workspace
-
-build
