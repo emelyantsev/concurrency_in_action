@@ -32,12 +32,14 @@
         "args": [
           "/Zi",
           "/EHsc",
+          "/std:c++20",
+          "/nologo",
           "/Fe:",
           "${fileDirnameBasename}",
-          "*.cpp"
+          "../*.cpp"
         ],
         "options": {
-              "cwd": "${fileDirname}"
+              "cwd": "${fileDirname}/build"
         },
         "problemMatcher": ["$msCompile"],
         "group": {
