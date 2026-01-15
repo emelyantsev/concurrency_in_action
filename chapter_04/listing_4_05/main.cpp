@@ -2,16 +2,11 @@
 #include <condition_variable>
 #include <thread>
 #include <iostream>
-#include <syncstream>
-#include <chrono>
+
+#include "common.h"
 
 #include "threadsafe_queue.h"
 
-#ifndef sync_cout
-#define sync_cout std::osyncstream(std::cout)
-#endif
-
-using namespace std::chrono_literals;
 
 constexpr int NUM_COUNTS = 100;
 

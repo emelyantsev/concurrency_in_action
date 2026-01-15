@@ -6,7 +6,7 @@
     "configurations": [
        
         {
-            "name": "Linux C/C++: g++ build and debug all cpp in folder",
+            "name": "Linux C/C++: g++ DEBUG build and debug all cpp in folder",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileDirnameBasename}",
@@ -28,7 +28,7 @@
           },
 
           {
-            "name": "Windows C/C++: g++ build and debug all cpp in folder",
+            "name": "Windows C/C++: build and debug all cpp in folder",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${fileDirname}/build/${fileDirnameBasename}.exe",
@@ -37,7 +37,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "preLaunchTask": "Windows C/C++: g++ build all *.cpp in folder"
+            "preLaunchTask": "Windows C/C++: DEBUG build all *.cpp in folder"
           }
     ]
 }

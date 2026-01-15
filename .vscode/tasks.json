@@ -2,10 +2,11 @@
     "tasks": [
         {
           "type": "cppbuild",
-          "label": "Linux C/C++: g++ build all *.cpp in folder",
+          "label": "Linux C/C++: g++ DEBUG build all *.cpp in folder",
           "command": "/usr/bin/g++",
           "args": [
               "-fdiagnostics-color=always",
+              "-I", "${workspaceFolder}/common",
               "-g",
               "*.cpp",
               "-o",
@@ -27,9 +28,10 @@
 
       {
         "type": "shell",
-        "label": "Windows C/C++: g++ build all *.cpp in folder",
+        "label": "Windows C/C++: DEBUG build all *.cpp in folder",
         "command": "cl.exe",
         "args": [
+          "-I", "${workspaceFolder}/common",
           "/Zi",
           "/EHsc",
           "/std:c++20",
