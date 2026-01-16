@@ -24,7 +24,7 @@
                 "ignoreFailures": true
               }
             ],
-            "preLaunchTask": "Linux C/C++: g++ build all *.cpp in folder"
+            "preLaunchTask": "Linux C/C++: g++ DEBUG build all *.cpp in folder"
           },
 
           {
