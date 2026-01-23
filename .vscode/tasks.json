@@ -27,6 +27,28 @@
       },
 
       {
+        "type": "cppbuild",
+        "label": "Linux C/C++: g++ RELEASE build",
+        "command": "/usr/bin/g++",
+        "args": [
+            "-fdiagnostics-color=always",
+            "-I", "${workspaceFolder}/common",
+            "*.cpp",
+            "-o", "${fileDirnameBasename}_release",
+            "-std=c++20",
+            "-O3",          
+            "-DNDEBUG"      
+        ],
+        "options": {
+            "cwd": "${fileDirname}"
+        },
+        "group": {
+              "kind": "build",
+              "isDefault": true
+        },
+      }, 
+
+      {
         "type": "shell",
         "label": "Windows C/C++: DEBUG build all *.cpp in folder",
         "command": "cl.exe",
