@@ -8,4 +8,6 @@
 - [ ]  6. [Designing lock-based concurrent data structures](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_05)
 
 
-[![An introduction to multithreading in cpp 20 - CppCon 2022 - Anthony Williams](https://img.youtube.com/vi/A7sVFJLJM-A&t/0.jpg)](https://www.youtube.com/watch?A7sVFJLJM-A&t)
+#### Useful links:
+
+- [An introduction to multithreading in cpp 20 - CppCon 2022 - Anthony Williams](https://www.youtube.com/watch?A7sVFJLJM-A&t)
