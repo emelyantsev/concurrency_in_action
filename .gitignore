@@ -16,3 +16,4 @@
 *.code-workspace
 
 build
+build_release
