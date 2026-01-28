@@ -16,5 +16,3 @@
 #### Useful links:
 
 - [An introduction to multithreading in cpp 20 - CppCon 2022 - Anthony Williams](https://www.youtube.com/watch?A7sVFJLJM-A&t)
-
-![Concurrency is awesome!](images/image1.png)
