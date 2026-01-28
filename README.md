@@ -6,13 +6,14 @@
 - [x]  4. [Synchronizing concurrent operations](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_04)
 - [x]  5. [The C++ memory model and operations on atomic types](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_05)
 - [x]  6. [Designing lock-based concurrent data structures](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_06)
-- [x]  7. [Designing lock-free concurrent data structures](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_07)
+- [-]  7. [Designing lock-free concurrent data structures](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_07)
 - [x]  8. [Designing concurrent code](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_08)
-- [ ]  9. [Advanced thread management](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_09)
-- [ ]  10. [Parallel algorithms](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_10)
-- [ ]  11. [Testing and debugging multithreaded applications](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_10)
+- [x]  9. [Advanced thread management](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_09)
+- [x]  10. [Parallel algorithms](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_10)
+- [x]  11. [Testing and debugging multithreaded applications](https://github.com/emelyantsev/concurrency_in_action/tree/main/chapter_10)
 
 
 #### Useful links:
 
 - [An introduction to multithreading in cpp 20 - CppCon 2022 - Anthony Williams](https://www.youtube.com/watch?A7sVFJLJM-A&t)
+- [CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?”](https://www.youtube.com/watch?v=ZQFzMfHIxng)
